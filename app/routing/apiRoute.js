@@ -53,28 +53,11 @@ function closestFriend(arr){
     for(var i = 0; i < indices.length; i++){
         var closeIndex = indices[i];
         closestArr.push(surveysData[closeIndex]);
-    }console.log(closestArr);
+    }console.log("CLOSEST FRIEND"+closestArr);
     return closestArr;
     
 }
 };
-   //=============================================//
 
-//     app.get("/api/friend", function(req, res) {
-//         res.json(surveysData);
-//     });
-
-//     app.post("/api/friend", function(req, res) {
-      
-
-//         surveysData.unshift(req.body);
-//         res.json(true);
-
-
-//     });
-
-
-   
-// };
 
 
